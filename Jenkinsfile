@@ -16,12 +16,12 @@ pipeline {
         }
          stage('Test') {
             steps {
-                sh 'ng test'
+                sh 'npm run-script'
             }
         }
         stage('Run') {
             steps {
-                sh 'ng start'
+                sh 'npm run-script start'
 
             }
         }
