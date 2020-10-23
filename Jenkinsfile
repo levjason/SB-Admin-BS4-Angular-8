@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'vieux/node:latest'
-            args '-p 4200:4200'
+            args '-p 4200:4200 --no-sandbox'
         }
     }
     environment {
