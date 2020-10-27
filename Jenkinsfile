@@ -3,7 +3,7 @@ pipeline {
         docker {
             image 'vieux/node:latest'
             args '-p 4200:4200 '
-            args '--entrypoint tini -- --no-sandbox'
+            args '--entrypoint tini '
         }
     }
     environment {
