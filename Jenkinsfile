@@ -3,7 +3,6 @@ pipeline {
         docker {
             image 'vieux/node:latest'
             args '-p 4200:4200 '
-            args '--no-sandbox '
         }
     }
     environment {
