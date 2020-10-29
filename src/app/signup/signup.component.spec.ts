@@ -9,11 +9,11 @@ describe('SignupComponent', () => {
     let component: SignupComponent;
     let fixture: ComponentFixture<SignupComponent>;
 
-    beforeEach(async(() => {
+/*     beforeEach(async(() => {
         TestBed.configureTestingModule({
             imports: [SignupModule, RouterTestingModule, BrowserAnimationsModule]
         }).compileComponents();
-    }));
+    })); */
 
     beforeEach(() => {
         fixture = TestBed.createComponent(SignupComponent);
