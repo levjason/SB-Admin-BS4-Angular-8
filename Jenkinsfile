@@ -19,7 +19,12 @@ pipeline {
             steps {
                 sh  './jenkins/scripts/test.sh'
             }
-         }
+        }
+        stage('e2e') {
+            steps {
+                sh  './jenkins/scripts/e2e.sh'
+            }
+        }
         stage('Run') {
             steps {
                 sh  './jenkins/scripts/deliver.sh'
