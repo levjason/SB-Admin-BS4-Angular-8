@@ -21,7 +21,7 @@ describe('NotFoundComponent', () => {
             ]
         }).compileComponents();
     }); 
-    });
+
 
     beforeEach(() => {
         fixture = TestBed.createComponent(NotFoundComponent);
