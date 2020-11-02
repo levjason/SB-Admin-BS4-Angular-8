@@ -14,6 +14,7 @@ pipeline {
             steps {
                 sh 'npm install'
                 sh 'npm install -g @angular/cli@10.1.6'
+                sh 'which ng'
             }
         }
         stage('Test') {
