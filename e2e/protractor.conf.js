@@ -15,7 +15,7 @@ exports.config = {
   capabilities: {
     browserName: 'chrome',
     chromeOptions: {
-      'args': ['show-fps-counter=true', 'disable-dev-shm-usage', 'remote-debugging-port=9222']
+      'args': ['show-fps-counter=true','--headless', '--no-sandbox', 'disable-dev-shm-usage', 'remote-debugging-port=9222']
 
     },
   },
