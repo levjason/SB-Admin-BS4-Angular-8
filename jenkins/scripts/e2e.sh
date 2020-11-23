@@ -12,4 +12,4 @@ echo 'https://stackoverflow.com/questions/18875674/whats-the-difference-between-
 set -x
 # npm install --save-dev cross-env
 set -x
-npm run-script e2e
+npm run-script e2e-noupdate

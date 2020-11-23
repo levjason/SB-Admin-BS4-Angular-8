@@ -10,7 +10,8 @@
         "test": "ng test",
         "test-ci": "TEST_CI=true ng test",
         "lint": "ng lint",
-        "e2e": "ng e2e"
+        "e2e": "ng e2e",
+        "e2e-noupdate" : "ng e2e --webdriverUpdate=false --port 0"
     },
     "private": true,
     "dependencies": {
